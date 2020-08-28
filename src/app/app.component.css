@@ -1,0 +1,22 @@
+section{
+    padding-bottom: 70px;
+    height: auto !important;
+}
+.container-home{
+    padding-top: 70px;
+    padding-bottom: 70px;    
+    height: auto !important;
+}
+
+.jumbotron{
+    background: url("../assets/icons/jumbotron-1.png") no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    height: 350px;
+}
+
+.text-title{
+    color: antiquewhite;
+}

@@ -1,0 +1,15 @@
+<div class="row row-cols-1 row-cols-md-3">
+  <div class="col mb-4" *ngFor="let product of products; let i = index">
+    <div class="card">
+      <img [src]="product.img" class="card-img-top" [alt]="product.img">
+      <div class="card-body">
+        <h5 class="card-title"> {{ product.nombre }} </h5>
+        <p class="card-text">{{ product.description }}</p>
+        <h3 class="card-title"> $ {{ product.precio }} </h3>
+        <div class="butons">
+          <button (click)="ver(i)" type="button" class="btn btn-block btn-primary">Ver Producto</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

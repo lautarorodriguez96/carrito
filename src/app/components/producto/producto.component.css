@@ -1,0 +1,41 @@
+.product{
+    padding-bottom: 90px;
+}
+
+.img-cart {
+    width: 70px;
+}
+
+.img-preview{
+    width: 100%;
+}
+
+.product-card {
+    padding: 20px;
+    background-color: #7b7b7b12;
+}
+
+.btn-confirm {
+    padding-top: 50px;
+    float:right;
+}
+
+.buttons{
+    padding: 1.25rem;
+    padding-top: 0;
+}
+
+.actions{
+    padding-top: 35px;
+    padding-left: 20px;
+}
+
+.price{
+    padding: 20px 20px 0px 20px;
+    float: right;
+    font-weight: 500;
+}
+
+section{
+    height: auto !important;
+}
